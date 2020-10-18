@@ -7,134 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88C8F65D253BFFCD00EB7C86 /* RxCocoa_Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C8F65B253BFFCD00EB7C86 /* RxCocoa_Texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88C8F66F253C005800EB7C86 /* ASTextNode2+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F663253C005700EB7C86 /* ASTextNode2+Rx.swift */; };
-		88C8F670253C005800EB7C86 /* ASEditableTextNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F664253C005700EB7C86 /* ASEditableTextNode+Rx.swift */; };
-		88C8F671253C005800EB7C86 /* ASDisplayNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F665253C005700EB7C86 /* ASDisplayNode+Rx.swift */; };
-		88C8F672253C005800EB7C86 /* ASControlNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F666253C005700EB7C86 /* ASControlNode+Rx.swift */; };
-		88C8F673253C005800EB7C86 /* ASButtonNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F667253C005800EB7C86 /* ASButtonNode+Rx.swift */; };
-		88C8F674253C005800EB7C86 /* ASBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F668253C005800EB7C86 /* ASBinder.swift */; };
-		88C8F675253C005800EB7C86 /* ASControlTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F669253C005800EB7C86 /* ASControlTarget.swift */; };
-		88C8F676253C005800EB7C86 /* Driver+ASSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F66A253C005800EB7C86 /* Driver+ASSubscription.swift */; };
-		88C8F677253C005800EB7C86 /* ASTextNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F66B253C005800EB7C86 /* ASTextNode+Rx.swift */; };
-		88C8F678253C005800EB7C86 /* ASImageNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F66C253C005800EB7C86 /* ASImageNode+Rx.swift */; };
-		88C8F679253C005800EB7C86 /* ASNetworkImageNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F66D253C005800EB7C86 /* ASNetworkImageNode+Rx.swift */; };
-		88C8F67A253C005800EB7C86 /* RxASEditableTextNodeDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F66E253C005800EB7C86 /* RxASEditableTextNodeDelegateProxy.swift */; };
+		88C8F6A4253C064400EB7C86 /* RxCocoaTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C8F6A2253C064400EB7C86 /* RxCocoaTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C8F6B4253C06EC00EB7C86 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6AB253C06EB00EB7C86 /* RxSwift.framework */; };
+		88C8F6B5253C06EC00EB7C86 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6AC253C06EB00EB7C86 /* AsyncDisplayKit.framework */; };
+		88C8F6B6253C06EC00EB7C86 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6AD253C06EB00EB7C86 /* RxBlocking.framework */; };
+		88C8F6B7253C06EC00EB7C86 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6AE253C06EC00EB7C86 /* PINCache.framework */; };
+		88C8F6B8253C06EC00EB7C86 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6AF253C06EC00EB7C86 /* PINOperation.framework */; };
+		88C8F6B9253C06EC00EB7C86 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6B0253C06EC00EB7C86 /* RxRelay.framework */; };
+		88C8F6BA253C06EC00EB7C86 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6B1253C06EC00EB7C86 /* RxCocoa.framework */; };
+		88C8F6BB253C06EC00EB7C86 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6B2253C06EC00EB7C86 /* PINRemoteImage.framework */; };
+		88C8F6BC253C06EC00EB7C86 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C8F6B3253C06EC00EB7C86 /* RxTest.framework */; };
+		88C8F6C9253C070D00EB7C86 /* ASDisplayNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6BD253C070D00EB7C86 /* ASDisplayNode+Rx.swift */; };
+		88C8F6CA253C070D00EB7C86 /* ASNetworkImageNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6BE253C070D00EB7C86 /* ASNetworkImageNode+Rx.swift */; };
+		88C8F6CB253C070D00EB7C86 /* RxASEditableTextNodeDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6BF253C070D00EB7C86 /* RxASEditableTextNodeDelegateProxy.swift */; };
+		88C8F6CC253C070D00EB7C86 /* ASControlNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C0253C070D00EB7C86 /* ASControlNode+Rx.swift */; };
+		88C8F6CD253C070D00EB7C86 /* ASImageNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C1253C070D00EB7C86 /* ASImageNode+Rx.swift */; };
+		88C8F6CE253C070D00EB7C86 /* ASTextNode2+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C2253C070D00EB7C86 /* ASTextNode2+Rx.swift */; };
+		88C8F6CF253C070D00EB7C86 /* ASTextNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C3253C070D00EB7C86 /* ASTextNode+Rx.swift */; };
+		88C8F6D0253C070D00EB7C86 /* ASEditableTextNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C4253C070D00EB7C86 /* ASEditableTextNode+Rx.swift */; };
+		88C8F6D1253C070D00EB7C86 /* ASControlTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C5253C070D00EB7C86 /* ASControlTarget.swift */; };
+		88C8F6D2253C070D00EB7C86 /* ASBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C6253C070D00EB7C86 /* ASBinder.swift */; };
+		88C8F6D3253C070D00EB7C86 /* Driver+ASSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C7253C070D00EB7C86 /* Driver+ASSubscription.swift */; };
+		88C8F6D4253C070D00EB7C86 /* ASButtonNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F6C8253C070D00EB7C86 /* ASButtonNode+Rx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88C8F658253BFFCD00EB7C86 /* RxCocoa_Texture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa_Texture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88C8F65B253BFFCD00EB7C86 /* RxCocoa_Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCocoa_Texture.h; sourceTree = "<group>"; };
-		88C8F65C253BFFCD00EB7C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88C8F663253C005700EB7C86 /* ASTextNode2+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASTextNode2+Rx.swift"; path = "RxCocoa-Texture/Classes/ASTextNode2+Rx.swift"; sourceTree = "<group>"; };
-		88C8F664253C005700EB7C86 /* ASEditableTextNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASEditableTextNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASEditableTextNode+Rx.swift"; sourceTree = "<group>"; };
-		88C8F665253C005700EB7C86 /* ASDisplayNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASDisplayNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASDisplayNode+Rx.swift"; sourceTree = "<group>"; };
-		88C8F666253C005700EB7C86 /* ASControlNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASControlNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASControlNode+Rx.swift"; sourceTree = "<group>"; };
-		88C8F667253C005800EB7C86 /* ASButtonNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASButtonNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASButtonNode+Rx.swift"; sourceTree = "<group>"; };
-		88C8F668253C005800EB7C86 /* ASBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ASBinder.swift; path = "RxCocoa-Texture/Classes/ASBinder.swift"; sourceTree = "<group>"; };
-		88C8F669253C005800EB7C86 /* ASControlTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ASControlTarget.swift; path = "RxCocoa-Texture/Classes/ASControlTarget.swift"; sourceTree = "<group>"; };
-		88C8F66A253C005800EB7C86 /* Driver+ASSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Driver+ASSubscription.swift"; path = "RxCocoa-Texture/Classes/Driver+ASSubscription.swift"; sourceTree = "<group>"; };
-		88C8F66B253C005800EB7C86 /* ASTextNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASTextNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASTextNode+Rx.swift"; sourceTree = "<group>"; };
-		88C8F66C253C005800EB7C86 /* ASImageNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASImageNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASImageNode+Rx.swift"; sourceTree = "<group>"; };
-		88C8F66D253C005800EB7C86 /* ASNetworkImageNode+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASNetworkImageNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASNetworkImageNode+Rx.swift"; sourceTree = "<group>"; };
-		88C8F66E253C005800EB7C86 /* RxASEditableTextNodeDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RxASEditableTextNodeDelegateProxy.swift; path = "RxCocoa-Texture/Classes/RxASEditableTextNodeDelegateProxy.swift"; sourceTree = "<group>"; };
+		88C8F69F253C064400EB7C86 /* RxCocoaTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoaTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C8F6A2253C064400EB7C86 /* RxCocoaTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCocoaTexture.h; sourceTree = "<group>"; };
+		88C8F6A3253C064400EB7C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C8F6AB253C06EB00EB7C86 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		88C8F6AC253C06EB00EB7C86 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
+		88C8F6AD253C06EB00EB7C86 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		88C8F6AE253C06EC00EB7C86 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
+		88C8F6AF253C06EC00EB7C86 /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/iOS/PINOperation.framework; sourceTree = "<group>"; };
+		88C8F6B0253C06EC00EB7C86 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		88C8F6B1253C06EC00EB7C86 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		88C8F6B2253C06EC00EB7C86 /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
+		88C8F6B3253C06EC00EB7C86 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		88C8F6BD253C070D00EB7C86 /* ASDisplayNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASDisplayNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASDisplayNode+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6BE253C070D00EB7C86 /* ASNetworkImageNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASNetworkImageNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASNetworkImageNode+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6BF253C070D00EB7C86 /* RxASEditableTextNodeDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxASEditableTextNodeDelegateProxy.swift; path = "RxCocoa-Texture/Classes/RxASEditableTextNodeDelegateProxy.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C0253C070D00EB7C86 /* ASControlNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASControlNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASControlNode+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C1253C070D00EB7C86 /* ASImageNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASImageNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASImageNode+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C2253C070D00EB7C86 /* ASTextNode2+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASTextNode2+Rx.swift"; path = "RxCocoa-Texture/Classes/ASTextNode2+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C3253C070D00EB7C86 /* ASTextNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASTextNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASTextNode+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C4253C070D00EB7C86 /* ASEditableTextNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASEditableTextNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASEditableTextNode+Rx.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C5253C070D00EB7C86 /* ASControlTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASControlTarget.swift; path = "RxCocoa-Texture/Classes/ASControlTarget.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C6253C070D00EB7C86 /* ASBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASBinder.swift; path = "RxCocoa-Texture/Classes/ASBinder.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C7253C070D00EB7C86 /* Driver+ASSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Driver+ASSubscription.swift"; path = "RxCocoa-Texture/Classes/Driver+ASSubscription.swift"; sourceTree = SOURCE_ROOT; };
+		88C8F6C8253C070D00EB7C86 /* ASButtonNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ASButtonNode+Rx.swift"; path = "RxCocoa-Texture/Classes/ASButtonNode+Rx.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		88C8F655253BFFCD00EB7C86 /* Frameworks */ = {
+		88C8F69C253C064400EB7C86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C8F6B4253C06EC00EB7C86 /* RxSwift.framework in Frameworks */,
+				88C8F6B5253C06EC00EB7C86 /* AsyncDisplayKit.framework in Frameworks */,
+				88C8F6B6253C06EC00EB7C86 /* RxBlocking.framework in Frameworks */,
+				88C8F6B7253C06EC00EB7C86 /* PINCache.framework in Frameworks */,
+				88C8F6B8253C06EC00EB7C86 /* PINOperation.framework in Frameworks */,
+				88C8F6B9253C06EC00EB7C86 /* RxRelay.framework in Frameworks */,
+				88C8F6BA253C06EC00EB7C86 /* RxCocoa.framework in Frameworks */,
+				88C8F6BB253C06EC00EB7C86 /* PINRemoteImage.framework in Frameworks */,
+				88C8F6BC253C06EC00EB7C86 /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88C8F64E253BFFCD00EB7C86 = {
+		88C8F695253C064400EB7C86 = {
 			isa = PBXGroup;
 			children = (
-				88C8F668253C005800EB7C86 /* ASBinder.swift */,
-				88C8F667253C005800EB7C86 /* ASButtonNode+Rx.swift */,
-				88C8F666253C005700EB7C86 /* ASControlNode+Rx.swift */,
-				88C8F669253C005800EB7C86 /* ASControlTarget.swift */,
-				88C8F665253C005700EB7C86 /* ASDisplayNode+Rx.swift */,
-				88C8F664253C005700EB7C86 /* ASEditableTextNode+Rx.swift */,
-				88C8F66C253C005800EB7C86 /* ASImageNode+Rx.swift */,
-				88C8F66D253C005800EB7C86 /* ASNetworkImageNode+Rx.swift */,
-				88C8F66B253C005800EB7C86 /* ASTextNode+Rx.swift */,
-				88C8F663253C005700EB7C86 /* ASTextNode2+Rx.swift */,
-				88C8F66A253C005800EB7C86 /* Driver+ASSubscription.swift */,
-				88C8F66E253C005800EB7C86 /* RxASEditableTextNodeDelegateProxy.swift */,
-				88C8F65A253BFFCD00EB7C86 /* RxCocoa-Texture */,
-				88C8F659253BFFCD00EB7C86 /* Products */,
+				88C8F6A1253C064400EB7C86 /* RxCocoaTexture */,
+				88C8F6A0253C064400EB7C86 /* Products */,
+				88C8F6AA253C06EB00EB7C86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		88C8F659253BFFCD00EB7C86 /* Products */ = {
+		88C8F6A0253C064400EB7C86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88C8F658253BFFCD00EB7C86 /* RxCocoa_Texture.framework */,
+				88C8F69F253C064400EB7C86 /* RxCocoaTexture.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88C8F65A253BFFCD00EB7C86 /* RxCocoa-Texture */ = {
+		88C8F6A1253C064400EB7C86 /* RxCocoaTexture */ = {
 			isa = PBXGroup;
 			children = (
-				88C8F65B253BFFCD00EB7C86 /* RxCocoa_Texture.h */,
-				88C8F65C253BFFCD00EB7C86 /* Info.plist */,
+				88C8F6C6253C070D00EB7C86 /* ASBinder.swift */,
+				88C8F6C8253C070D00EB7C86 /* ASButtonNode+Rx.swift */,
+				88C8F6C0253C070D00EB7C86 /* ASControlNode+Rx.swift */,
+				88C8F6C5253C070D00EB7C86 /* ASControlTarget.swift */,
+				88C8F6BD253C070D00EB7C86 /* ASDisplayNode+Rx.swift */,
+				88C8F6C4253C070D00EB7C86 /* ASEditableTextNode+Rx.swift */,
+				88C8F6C1253C070D00EB7C86 /* ASImageNode+Rx.swift */,
+				88C8F6BE253C070D00EB7C86 /* ASNetworkImageNode+Rx.swift */,
+				88C8F6C3253C070D00EB7C86 /* ASTextNode+Rx.swift */,
+				88C8F6C2253C070D00EB7C86 /* ASTextNode2+Rx.swift */,
+				88C8F6C7253C070D00EB7C86 /* Driver+ASSubscription.swift */,
+				88C8F6BF253C070D00EB7C86 /* RxASEditableTextNodeDelegateProxy.swift */,
+				88C8F6A2253C064400EB7C86 /* RxCocoaTexture.h */,
+				88C8F6A3253C064400EB7C86 /* Info.plist */,
 			);
-			path = "RxCocoa-Texture";
+			path = RxCocoaTexture;
+			sourceTree = "<group>";
+		};
+		88C8F6AA253C06EB00EB7C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C8F6AC253C06EB00EB7C86 /* AsyncDisplayKit.framework */,
+				88C8F6AE253C06EC00EB7C86 /* PINCache.framework */,
+				88C8F6AF253C06EC00EB7C86 /* PINOperation.framework */,
+				88C8F6B2253C06EC00EB7C86 /* PINRemoteImage.framework */,
+				88C8F6AD253C06EB00EB7C86 /* RxBlocking.framework */,
+				88C8F6B1253C06EC00EB7C86 /* RxCocoa.framework */,
+				88C8F6B0253C06EC00EB7C86 /* RxRelay.framework */,
+				88C8F6AB253C06EB00EB7C86 /* RxSwift.framework */,
+				88C8F6B3253C06EC00EB7C86 /* RxTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		88C8F653253BFFCD00EB7C86 /* Headers */ = {
+		88C8F69A253C064400EB7C86 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C8F65D253BFFCD00EB7C86 /* RxCocoa_Texture.h in Headers */,
+				88C8F6A4253C064400EB7C86 /* RxCocoaTexture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88C8F657253BFFCD00EB7C86 /* RxCocoa-Texture */ = {
+		88C8F69E253C064400EB7C86 /* RxCocoaTexture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88C8F660253BFFCD00EB7C86 /* Build configuration list for PBXNativeTarget "RxCocoa-Texture" */;
+			buildConfigurationList = 88C8F6A7253C064400EB7C86 /* Build configuration list for PBXNativeTarget "RxCocoaTexture" */;
 			buildPhases = (
-				88C8F653253BFFCD00EB7C86 /* Headers */,
-				88C8F654253BFFCD00EB7C86 /* Sources */,
-				88C8F655253BFFCD00EB7C86 /* Frameworks */,
-				88C8F656253BFFCD00EB7C86 /* Resources */,
+				88C8F69A253C064400EB7C86 /* Headers */,
+				88C8F69B253C064400EB7C86 /* Sources */,
+				88C8F69C253C064400EB7C86 /* Frameworks */,
+				88C8F69D253C064400EB7C86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "RxCocoa-Texture";
-			productName = "RxCocoa-Texture";
-			productReference = 88C8F658253BFFCD00EB7C86 /* RxCocoa_Texture.framework */;
+			name = RxCocoaTexture;
+			productName = RxCocoaTexture;
+			productReference = 88C8F69F253C064400EB7C86 /* RxCocoaTexture.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		88C8F64F253BFFCD00EB7C86 /* Project object */ = {
+		88C8F696253C064400EB7C86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = myunggison;
 				TargetAttributes = {
-					88C8F657253BFFCD00EB7C86 = {
+					88C8F69E253C064400EB7C86 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
-			buildConfigurationList = 88C8F652253BFFCD00EB7C86 /* Build configuration list for PBXProject "RxCocoaTexture" */;
+			buildConfigurationList = 88C8F699253C064400EB7C86 /* Build configuration list for PBXProject "RxCocoaTexture" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,18 +187,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 88C8F64E253BFFCD00EB7C86;
-			productRefGroup = 88C8F659253BFFCD00EB7C86 /* Products */;
+			mainGroup = 88C8F695253C064400EB7C86;
+			productRefGroup = 88C8F6A0253C064400EB7C86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88C8F657253BFFCD00EB7C86 /* RxCocoa-Texture */,
+				88C8F69E253C064400EB7C86 /* RxCocoaTexture */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		88C8F656253BFFCD00EB7C86 /* Resources */ = {
+		88C8F69D253C064400EB7C86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,29 +208,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88C8F654253BFFCD00EB7C86 /* Sources */ = {
+		88C8F69B253C064400EB7C86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C8F66F253C005800EB7C86 /* ASTextNode2+Rx.swift in Sources */,
-				88C8F670253C005800EB7C86 /* ASEditableTextNode+Rx.swift in Sources */,
-				88C8F671253C005800EB7C86 /* ASDisplayNode+Rx.swift in Sources */,
-				88C8F672253C005800EB7C86 /* ASControlNode+Rx.swift in Sources */,
-				88C8F673253C005800EB7C86 /* ASButtonNode+Rx.swift in Sources */,
-				88C8F674253C005800EB7C86 /* ASBinder.swift in Sources */,
-				88C8F675253C005800EB7C86 /* ASControlTarget.swift in Sources */,
-				88C8F676253C005800EB7C86 /* Driver+ASSubscription.swift in Sources */,
-				88C8F677253C005800EB7C86 /* ASTextNode+Rx.swift in Sources */,
-				88C8F678253C005800EB7C86 /* ASImageNode+Rx.swift in Sources */,
-				88C8F679253C005800EB7C86 /* ASNetworkImageNode+Rx.swift in Sources */,
-				88C8F67A253C005800EB7C86 /* RxASEditableTextNodeDelegateProxy.swift in Sources */,
+				88C8F6CF253C070D00EB7C86 /* ASTextNode+Rx.swift in Sources */,
+				88C8F6CB253C070D00EB7C86 /* RxASEditableTextNodeDelegateProxy.swift in Sources */,
+				88C8F6CE253C070D00EB7C86 /* ASTextNode2+Rx.swift in Sources */,
+				88C8F6D4253C070D00EB7C86 /* ASButtonNode+Rx.swift in Sources */,
+				88C8F6CC253C070D00EB7C86 /* ASControlNode+Rx.swift in Sources */,
+				88C8F6D0253C070D00EB7C86 /* ASEditableTextNode+Rx.swift in Sources */,
+				88C8F6D2253C070D00EB7C86 /* ASBinder.swift in Sources */,
+				88C8F6CA253C070D00EB7C86 /* ASNetworkImageNode+Rx.swift in Sources */,
+				88C8F6D1253C070D00EB7C86 /* ASControlTarget.swift in Sources */,
+				88C8F6CD253C070D00EB7C86 /* ASImageNode+Rx.swift in Sources */,
+				88C8F6D3253C070D00EB7C86 /* Driver+ASSubscription.swift in Sources */,
+				88C8F6C9253C070D00EB7C86 /* ASDisplayNode+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		88C8F65E253BFFCD00EB7C86 /* Debug */ = {
+		88C8F6A5253C064400EB7C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		88C8F65F253BFFCD00EB7C86 /* Release */ = {
+		88C8F6A6253C064400EB7C86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,45 +350,56 @@
 			};
 			name = Release;
 		};
-		88C8F661253BFFCD00EB7C86 /* Debug */ = {
+		88C8F6A8253C064400EB7C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "RxCocoa-Texture/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxCocoaTexture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.RxCocoa-Texture";
+				PRODUCT_BUNDLE_IDENTIFIER = org.RxCocoaTexture;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		88C8F662253BFFCD00EB7C86 /* Release */ = {
+		88C8F6A9253C064400EB7C86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "RxCocoa-Texture/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxCocoaTexture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.RxCocoa-Texture";
+				PRODUCT_BUNDLE_IDENTIFIER = org.RxCocoaTexture;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,25 +410,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88C8F652253BFFCD00EB7C86 /* Build configuration list for PBXProject "RxCocoaTexture" */ = {
+		88C8F699253C064400EB7C86 /* Build configuration list for PBXProject "RxCocoaTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88C8F65E253BFFCD00EB7C86 /* Debug */,
-				88C8F65F253BFFCD00EB7C86 /* Release */,
+				88C8F6A5253C064400EB7C86 /* Debug */,
+				88C8F6A6253C064400EB7C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88C8F660253BFFCD00EB7C86 /* Build configuration list for PBXNativeTarget "RxCocoa-Texture" */ = {
+		88C8F6A7253C064400EB7C86 /* Build configuration list for PBXNativeTarget "RxCocoaTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88C8F661253BFFCD00EB7C86 /* Debug */,
-				88C8F662253BFFCD00EB7C86 /* Release */,
+				88C8F6A8253C064400EB7C86 /* Debug */,
+				88C8F6A9253C064400EB7C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 88C8F64F253BFFCD00EB7C86 /* Project object */;
+	rootObject = 88C8F696253C064400EB7C86 /* Project object */;
 }
